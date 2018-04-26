@@ -18,7 +18,8 @@ public class OverviewActivity extends AppCompatActivity {
         test.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(OverviewActivity.this, "Test5",Toast.LENGTH_LONG).show();
+                Toast.makeText(OverviewActivity.this, "Test6",Toast.LENGTH_LONG).show();
+
             }
         });
         //Dette er en test af githubd

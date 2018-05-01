@@ -20,7 +20,9 @@
         <service
             android:name=".SyncService"
             android:enabled="true"
-            android:exported="true"></service>
+            android:exported="true" />
+
+        <activity android:name=".LogInActivity"></activity>
     </application>
 
 </manifest>

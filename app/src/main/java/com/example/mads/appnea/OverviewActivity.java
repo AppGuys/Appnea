@@ -19,9 +19,7 @@ public class OverviewActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(OverviewActivity.this, "Test6",Toast.LENGTH_LONG).show();
-
             }
         });
-        //Dette er en test af githubd
     }
 }

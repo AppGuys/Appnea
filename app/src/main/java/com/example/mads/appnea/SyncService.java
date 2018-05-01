@@ -4,6 +4,7 @@ import android.app.Service;
 import android.content.Intent;
 import android.os.Binder;
 import android.os.IBinder;
+import android.widget.Toast;
 
 public class SyncService extends Service {
 
@@ -36,5 +37,13 @@ public class SyncService extends Service {
     @Override
     public void onDestroy() {
         super.onDestroy();
+    }
+
+    public void logon(String username, String password)
+    {
+        // Prøv at log på
+
+        // Hvis det lykkedes, lav en toast som test
+        Toast.makeText(getApplicationContext(), "Log in succesful", Toast.LENGTH_SHORT).show();
     }
 }
